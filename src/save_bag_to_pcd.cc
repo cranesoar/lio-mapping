@@ -60,10 +60,10 @@
 
 using namespace std;
 
-DEFINE_string(input_filename, "", "the name of input bag file");
-DEFINE_string(output_filename, "", "the name of output pcd file");
-DEFINE_string(odom_name, "/aft_mapped_to_init", "the name of the odom");
-DEFINE_string(laser_name, "/cloud_registered", "the name of the laser");
+DEFINE_string(input_filename, "/home/cranesoar/DATASET/liomap_2021-11-04-03-01-02.bag", "the name of input bag file");
+DEFINE_string(output_filename, "/home/cranesoar/DATASET/global_optimal.pcd", "the name of output pcd file");
+DEFINE_string(odom_name, "/lio_map_builder/aft_mapped_to_init", "the name of the odom");
+DEFINE_string(laser_name, "/lio_map_builder/cloud_registered", "the name of the laser");
 
 static bool laser_available = false;
 static bool odom_available = false;

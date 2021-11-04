@@ -9,8 +9,8 @@ surf_filter_size: 0.4
 map_filter_size: 0.6
 
 # window sizes
-window_size: 7
-opt_window_size: 5
+window_size: 10
+opt_window_size: 7
 
 init_window_factor: 1
 
@@ -33,7 +33,8 @@ extrinsic_translation: !!opencv-matrix
   rows: 3
   cols: 1
   dt: d
-  data: [-2.4, 0, 0.7]
+  data: [0.0, 0.0, -0.081939]
+#  data: [-2.4, 0, 0.7]
 
 # optimization options
 run_optimization: 1
@@ -67,4 +68,4 @@ cutoff_deskew: 0
 
 keep_features: 0
 
-msg_time_delay: 0.05
+msg_time_delay: 0.00
